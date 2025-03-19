@@ -2,10 +2,10 @@
 
 ## 목차
 
-- [구성]
-- [기능] [list 등록]
-- [기능] [list 등록 시 시간 추가]
-- [기능][alert 기능]
+- [구성]{}
+- [기능] [list 등록]{}
+- [기능] [list 등록 시 시간 추가]{}
+- [기능][alert 기능]{}
 
 ## 구성
 
@@ -14,7 +14,7 @@
 - Javascript
 
 ## list 등록 + 시간 추가
-
+```
 //li 요소 생성함수
 function createItem(dateValue, text) {
 const itemRow = document.createElement('li');
@@ -87,4 +87,4 @@ setInterval(timeAlert, 1000);
 
 ```
 
-```
+
