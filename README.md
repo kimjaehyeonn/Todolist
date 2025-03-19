@@ -2,10 +2,10 @@
 
 ## 목차
 
-- [구성]
-- [기능] [list 등록]
-- [기능] [list 등록 시 시간 추가]
-- [기능][alert 기능]
+- [구성]{https://github.com/kimjaehyeonn/Todolist?tab=readme-ov-file#%EA%B5%AC%EC%84%B1}
+- [기능] [list 등록]{https://github.com/kimjaehyeonn/Todolist?tab=readme-ov-file#list-%EB%93%B1%EB%A1%9D--%EC%8B%9C%EA%B0%84-%EC%B6%94%EA%B0%80}
+- [기능] [list 등록 시 시간 추가]{https://github.com/kimjaehyeonn/Todolist?tab=readme-ov-file#list-%EB%93%B1%EB%A1%9D--%EC%8B%9C%EA%B0%84-%EC%B6%94%EA%B0%80}
+- [기능] [alert 기능]{https://github.com/kimjaehyeonn/Todolist?tab=readme-ov-file#alert-%EA%B8%B0%EB%8A%A5}
 
 ## 구성
 
