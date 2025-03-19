@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #ced3df;
+}
+/* section */
+.container {
+  width: 80%;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #f1f0f7;
+  -webkit-box-shadow: 9px 11px 5px 0px rgba(125, 124, 125, 1);
+  -moz-box-shadow: 9px 11px 5px 0px rgba(125, 124, 125, 1);
+  box-shadow: 9px 11px 5px 0px rgba(125, 124, 125, 1);
+  border-radius: 20px;
+}
+/* header */
+.header {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  background: rgba(237, 193, 211);
+  background: linear-gradient(
+    166deg,
+    rgba(237, 193, 211, 1) 0%,
+    rgba(219, 192, 216, 1) 35%,
+    rgba(127, 188, 242, 1) 100%
+  );
+  border-radius: 20px 20px 0 0;
+}
+
+/* ul */
+.items {
+  padding: 1rem;
+  height: 500px;
+  overflow-y: auto;
+}
+/* li */
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.item:hover {
+  background-color: #eae9ee;
+}
+/* li 체크 클릭됬을 때 */
+.item.item_done span {
+  opacity: 0.1;
+  text-decoration: line-through;
+}
+.item span {
+  flex: 1;
+}
+
+/*  아이콘 */
+.fa-check,
+.fa-trash-can {
+  font-size: 16px;
+  transition: 0.3s;
+}
+.fa-check:hover {
+  color: dodgerblue;
+}
+.fa-trash-can:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background: rgba(237, 193, 211);
+  background: linear-gradient(
+    166deg,
+    rgba(237, 193, 211, 1) 0%,
+    rgba(219, 192, 216, 1) 35%,
+    rgba(127, 188, 242, 1) 100%
+  );
+  border-radius: 0 0 20px 20px;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer_date {
+  width: 100%;
+}
+.footer_input {
+  display: inline-block;
+  width: 85%;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+/* 인라인이여서 flex로 변환해준 뒤 너비,높이, margin 적용 */
+
+.fa-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  /* margin: auto; */
+  font-size: 1.5rem;
+  background-color: white;
+  transform: translateX(-5px);
+  border-radius: 50%;
+  color: violet;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fa-plus:hover {
+  transform: translateX(-5px) scale(1.1);
+}
+
+/* transform 속성값으로 상요할 수 있는게 
+translate 위치, rotate 회전 등  2d, 3d 가능
+translateY(-10px) > translateY(-15px) scale(1.1) 로 덮어써야함
+기존의 위치를 유지하면서 사이즈를 키우고 싶다면 
+기존의 속성을 다 써줘야 함
+띄어쓰기로 4개 쓸 수 있다. matrix라는 속성값으로 쓸수도 있다. */
