@@ -1,0 +1,25 @@
+:root {
+  --blue-dark: #7990f8;
+  --blue: 7990f880;
+  --green-dark: 46cf8b;
+  --green: 46cf8b80;
+  --gray-dark: 121212;
+  --gray: 12121280;
+  --pink-dark: bc5ead;
+  --pink: bc5ead80;
+  --space-s: 6px;
+  --space-m: 16px;
+  --space-l: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav_card {
+  background-color: var(--blue-dark);
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+}
